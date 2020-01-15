@@ -1,10 +1,8 @@
 import React from 'react';
-import NavButton from '../components/NavButton';
+import { NavButton, Navbar } from '../components';
 
 export default () =>
   <div>
-    <NavButton>
-      Pouet
-    </NavButton>
+    <Navbar />
   </div>
 ;
