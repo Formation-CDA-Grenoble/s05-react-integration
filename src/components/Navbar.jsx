@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 
-import NavButton from './NavButton';
+import { NavButton } from '.';
 import { buttonData } from '../data';
 
 import '../styles/Navbar.css';

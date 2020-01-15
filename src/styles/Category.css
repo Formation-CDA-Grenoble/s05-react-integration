@@ -1,0 +1,26 @@
+.Category {
+    position: relative;
+    min-height: 400px;
+    background-size: cover;
+}
+
+.Category-name {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 1em; 
+	font-size: 40px;
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+.Category .Button {
+    position: absolute;
+    bottom: 1em;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

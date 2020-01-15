@@ -1,14 +1,10 @@
 import React from 'react';
-import { NavButton, Navbar, Button } from '../components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faOldRepublic } from '@fortawesome/free-brands-svg-icons';
+import { NavButton, Navbar, Button, Category, CategoriesContainer } from '../components';
 
 
 export default () =>
   <div>
     <Navbar />
-    <Button>
-      Découvrir <FontAwesomeIcon icon={faOldRepublic} />
-    </Button>
+    <CategoriesContainer />
   </div>
 ;
