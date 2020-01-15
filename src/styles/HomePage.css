@@ -1,0 +1,11 @@
+.HomePage-title {
+    font-size: 4em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.HomePage-description {
+    font-size: 1.2em;
+    max-width: 768px;
+    margin: 0 auto;
+}
