@@ -1,0 +1,16 @@
+.Navbar {
+    display: flex;
+    background-color: #64198a;
+    line-height: 3em;
+    color: white;
+    padding: 0 1em;
+}
+
+.Navbar-buttons {
+    display: flex;
+}
+
+.Navbar > svg {
+    font-size: 1.5em;
+    margin: auto 0;
+}
