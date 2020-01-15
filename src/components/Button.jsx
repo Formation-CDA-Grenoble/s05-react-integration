@@ -1,5 +1,11 @@
 import React from 'react';
 
-export default () =>
-  <div/>
+import '../styles/Button.css';
+
+export default (props) =>
+  <button className="Button">
+    <a href="#">
+      {props.children}
+    </a>
+  </button>
 ;
